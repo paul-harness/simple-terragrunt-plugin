@@ -1,0 +1,1 @@
+curl ${PLUGIN_URL}
