@@ -1,4 +1,4 @@
 echo ${PLUGIN_MESSAGE}
-echo "curling" ${PLUGIN_URL}
+echo ${PLUGIN_URL}
 curl ${PLUGIN_URL}
 echo "plugin executed successfully"
