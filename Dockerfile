@@ -1,4 +1,4 @@
-FROM alpine
+FROM terraform:latest
 ADD script.sh /bin/
 RUN chmod +x /bin/script.sh
 RUN apk -Uuv add curl ca-certificates
