@@ -1,6 +1,7 @@
-echo "Application:" ${PLUGIN_APPLICATION}
-echo "Image Name:" ${PLUGIN_IMAGENAME}
-echo "Repo:" ${PLUGIN_REPO}
-echo "Branch:" ${PLUGIN_BRANCH}
-echo "Commit SHA:" ${PLUGIN_COMMITSHA}
-echo "Variables Passed to CARA Nolio API SUCCESSFULLY!"
+echo "AWS Region:" ${PLUGIN_AWSREGION}
+terraform --version
+git clone https://github.com/paul-harness/tf-hello-world.git
+ll
+cd tf-hello-world
+ll
+
